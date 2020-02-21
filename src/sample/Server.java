@@ -1,7 +1,5 @@
 package sample;
 
-import javafx.fxml.FXMLLoader;
-import javafx.scene.layout.AnchorPane;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -99,7 +97,7 @@ public class Server implements Runnable{
                 }
 
                 //System.out.println(dataToShow.toString());
-                showData(dataToShow.toString());
+                //showData(dataToShow.toString());
 
                 completeXML.delete(0, completeXML.length());
                 dataToShow.delete(0,dataToShow.length());

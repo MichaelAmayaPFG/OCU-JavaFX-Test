@@ -6,8 +6,6 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-import javax.naming.ldap.Control;
-
 public class Main extends Application {
 
     static Controller controller;
@@ -23,6 +21,7 @@ public class Main extends Application {
         controller = (Controller) loader.getController();
         Server server = new Server(5901, controller);
         Thread serverThread = new Thread(server);
+        serverThread.setDaemon(true);
         serverThread.start();
     }
 

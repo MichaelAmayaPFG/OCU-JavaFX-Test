@@ -5,5 +5,5 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="275.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <TextArea fx:id="outPutTxt" editable="false" layoutX="9.0" layoutY="7.0" prefHeight="261.0" prefWidth="285.0" wrapText="true" />
-   <Button fx:id="newBtn" layoutX="9.0" layoutY="243.0" mnemonicParsing="false" onAction="#pressBtn" text="Test" />
+   <Button fx:id="newBtn" layoutX="9.0" layoutY="243.0" mnemonicParsing="false" onAction="#pressBtn" text="Stop" />
 </AnchorPane>

@@ -21,6 +21,7 @@ public class Controller {
 
     public void pressBtn(ActionEvent actionEvent) {
         outPutTxt.setText("Goodbye");
+        System.exit(-1);
         //server.setState(false);
     }
 
